@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xiaobai's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        Home
+        About
+        Contact
+    </nav>
+
+    <div class="container" id="home">
+        <h1>Welcome to Xiaobai's Site</h1>
+        <p>This is a simple website template for beginners.</p >
+        < img src="https://via.placeholder.com/800x400" alt="Example Image">
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required 
+                   style="width:100%; padding:8px; margin:5px 0; border:1px solid #ddd">
+            <input type="email" placeholder="Email" required 
+                   style="width:100%; padding:8px; margin:5px 0; border:1px solid #ddd">
+            <textarea placeholder="Message" rows="4" 
+                      style="width:100%; padding:8px; margin:5px 0; border:1px solid #ddd"></textarea>
+            <button style="background:#2c3e50; color:white; padding:10px 20px; border:none; cursor:pointer">
+                Send Message
+            </button>
+        </form>
+    </div>
+</body>
+</html>
